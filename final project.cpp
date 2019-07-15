@@ -124,4 +124,11 @@ chickenguruNPC();
     
     
     
-
+void slowSpeed(string s)
+{
+    for (char c : s)
+    {
+        this_thread::sleep_for(milliseconds(50));
+        cout << c << flush;
+    }
+}
