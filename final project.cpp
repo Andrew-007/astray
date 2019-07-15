@@ -90,7 +90,8 @@ farmerNPC();
 
 int combatMenu()
 {
-
+while(true)
+{
     char ans;
     int option;
     cout<<"______________________"<<endl;
@@ -113,7 +114,7 @@ int combatMenu()
         return option = 3;
     if(ans == 'c'|| ans == 'C')
         return option = 4;
-   
+   }
     
 }
     
